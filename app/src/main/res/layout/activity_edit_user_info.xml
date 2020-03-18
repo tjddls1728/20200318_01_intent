@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:singleLine="true"
-        android:text="이름입력"
+        android:hint="이름입력"
         />
 
     <TextView
