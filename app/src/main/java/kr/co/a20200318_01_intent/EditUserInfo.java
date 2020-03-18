@@ -5,16 +5,15 @@ import androidx.databinding.DataBindingUtil;
 
 import android.os.Bundle;
 
-import kr.co.a20200318_01_intent.databinding.ActivityMainBinding;
+import kr.co.a20200318_01_intent.databinding.ActivityEditUserInfoBinding;
 
-public class MainActivity extends AppCompatActivity {
-
-    ActivityMainBinding binding = null;
+public class EditUserInfo extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
+        ActivityEditUserInfoBinding binding = null;
         super.onCreate(savedInstanceState);
-        binding = DataBindingUtil.setContentView(this,R.layout.activity_main);
+        binding = DataBindingUtil.setContentView(this,R.layout.activity_edit_user_info);
     }
 }
