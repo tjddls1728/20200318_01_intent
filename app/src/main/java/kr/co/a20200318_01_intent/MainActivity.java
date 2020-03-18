@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         binding.inputBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,EditUserInfo);
+                Intent intent = new Intent(MainActivity.this, EditUserInfo.class);
                 startActivityForResult(intent,1000);
             }
         });
